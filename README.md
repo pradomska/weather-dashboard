@@ -22,7 +22,9 @@ HTML Template Rendering:
 - It populates the template with the retrieved weather data for the chosen station.
 
 Image Inclusion:
+
 The script allows you to include an image related to the weather. You can choose any relevant image and save it in the same folder as the HTML file.
 
 Customization:
+
 You can customize the HTML template by modifying the template.html file. Feel free to add styling, additional information, or any other elements you’d like.
