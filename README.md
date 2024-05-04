@@ -2,7 +2,9 @@
 
 This Python script generates an HTML file with weather data for a chosen city. 
 It also includes an image related to the weather. 
+
 The weather data is obtained from the IMGW (Institute of Meteorology and Water Management) public API: https://danepubliczne.imgw.pl/api/data/synop
+
 That URLs should not include Polish characters directly. Using unidecode to convert station names with diacritics to their ASCII equivalents is indeed the correct approach.
 
 The use of unidecode to handle Polish characters is a great solution. It ensures that station names with diacritics are properly converted to their ASCII equivalents. This way, you can avoid any issues related to character encoding. 
